@@ -17,20 +17,24 @@ using namespace std;
 
 
 // Iterative Factorial
-int IterativeFactorial( int n)
+long IterativeFactorial( int n)
 {
-    
+    long total = 1;
+    for (int i=1; i<= n; i++){
+        total *= i; 
+    }
     // YOUR CODE HERE
-    return 0; //Dummy Return
+    return total; //Dummy Return
 }
 
 
 // Recursive Factorial
-int RecursiveFactorial( int n)
+long RecursiveFactorial( int n)
 {
-    
-    // YOUR CODE HERE
-    return 0; //Dummy Return
+    // base case
+    if (n <= 1) return 1;
+    // recursive case
+    return n * RecursiveFactorial( n -1 ); //Dummy Return
 }
 
 
