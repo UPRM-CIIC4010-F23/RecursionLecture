@@ -51,26 +51,26 @@ int main()
 
     // // Test Check Palindrome Iteratively
     
-    // cout <<  IterativeIsPalindrome(s1) << endl;
-    // cout <<  IterativeIsPalindrome(s2) << endl;
-    // cout <<  IterativeIsPalindrome(s3) << endl;
-    // cout <<  IterativeIsPalindrome(s4) << endl;
-    // cout <<  IterativeIsPalindrome(s5) << endl;
-    // cout <<  IterativeIsPalindrome(s6) << endl;
-    // cout <<  IterativeIsPalindrome(s7) << endl;
-    // cout <<  IterativeIsPalindrome(s8) << endl;
+    // cout << "IterativeIsPalindrome(" << s1 << ") = " <<  IterativeIsPalindrome(s1) << endl;
+    // cout << "IterativeIsPalindrome(" << s2 << ") = " <<  IterativeIsPalindrome(s2) << endl;
+    // cout << "IterativeIsPalindrome(" << s3 << ") = " <<  IterativeIsPalindrome(s3) << endl;
+    // cout << "IterativeIsPalindrome(" << s4 << ") = " <<  IterativeIsPalindrome(s4) << endl;
+    // cout << "IterativeIsPalindrome(" << s5 << ") = " <<  IterativeIsPalindrome(s5) << endl;
+    // cout << "IterativeIsPalindrome(" << s6 << ") = " <<  IterativeIsPalindrome(s6) << endl;
+    // cout << "IterativeIsPalindrome(" << s7 << ") = " <<  IterativeIsPalindrome(s7) << endl;
+    // cout << "IterativeIsPalindrome(" << s8 << ") = " <<  IterativeIsPalindrome(s8) << endl;
     
 
     cout << endl ;
 
     // Test Check Palindrome Recursively
-    cout <<  RecursiveIsPalindrome(s1) << endl;
-    cout <<  RecursiveIsPalindrome(s2) << endl;
-    cout <<  RecursiveIsPalindrome(s3) << endl;
-    cout <<  RecursiveIsPalindrome(s4) << endl;
-    cout <<  RecursiveIsPalindrome(s5) << endl;
-    cout <<  RecursiveIsPalindrome(s6) << endl;
-    cout <<  RecursiveIsPalindrome(s7) << endl;
-    cout <<  RecursiveIsPalindrome(s8) << endl;
+    cout << "RecursiveIsPalindrome(\"" << s1 << "\") = " <<  RecursiveIsPalindrome(s1) << endl;
+    cout << "RecursiveIsPalindrome(\"" << s2 << "\") = " <<  RecursiveIsPalindrome(s2) << endl;
+    cout << "RecursiveIsPalindrome(\"" << s3 << "\") = " <<  RecursiveIsPalindrome(s3) << endl;
+    cout << "RecursiveIsPalindrome(\"" << s4 << "\") = " <<  RecursiveIsPalindrome(s4) << endl;
+    cout << "RecursiveIsPalindrome(\"" << s5 << "\") = " <<  RecursiveIsPalindrome(s5) << endl;
+    cout << "RecursiveIsPalindrome(\"" << s6 << "\") = " <<  RecursiveIsPalindrome(s6) << endl;
+    cout << "RecursiveIsPalindrome(\"" << s7 << "\") = " <<  RecursiveIsPalindrome(s7) << endl;
+    cout << "RecursiveIsPalindrome(\"" << s8 << "\") = " <<  RecursiveIsPalindrome(s8) << endl;
 
 }
